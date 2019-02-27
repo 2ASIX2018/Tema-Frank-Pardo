@@ -1,0 +1,99 @@
+/*
+Theme Name: Pardo.
+Theme URI: https://github.com/Pardo
+Author: Frank Pardo.
+Description: Tema sencill per a wordpress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Pardo
+*/
+
+/* de custom.css */
+
+header {
+  background-color: grey;
+}
+footer {
+    position: fixed;
+    text-align: center;
+    background-color:grey;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* de login.css*/
+
+.main-div {
+  background: grey none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+/* SIDEBAR*/
+
+#primary-sidebar{
+  background-color: darkgrey;
+  float: right;
+  height:100%;
+  border-radius: 10px;
+  margin-top:150px;
+}
+
+/* MENU */
+
+.menu ul li{
+  background-color: grey;
+  margin-right:10px;
+  display: inline;
+}
+.titulo_principal{
+  text-align: center;
+}
+.navbar-brand{
+  font-size: 50px;
+  color: lightblue;
+  text-align: center;
+  font-family: 'Lucida Sans';
+}
+/* TEXTOS */
+
+.Principal {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+/*POSTS*/
+
+.posts{
+  background-color:lightblue;
+  border-radius:10px;
+}
+/*ARTICLES*/
+.article-full {
+  background-color:lightblue;
+  border-radius: 10px;
+}
+
+/*404*/
+.error {
+  background-image: url(/imgs/404.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.error-text{
+  font-size: 25px;
+  text-align:center;
+}
